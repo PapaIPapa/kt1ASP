@@ -1,0 +1,10 @@
+﻿@model string
+
+<h2>Редактирование сообщения</h2>
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label for="message">Сообщение:</label>
+        <input type="text" class="form-control" id="message" name="message" />
+    </div>
+    <button type="submit" class="btn btn-primary">Отправить</button>
+</form>
